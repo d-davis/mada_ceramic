@@ -32,7 +32,7 @@ Sharing/Access Information
 <!-- Creative Commons Attribution 4.0 International (CC BY 4.0)  -->
 
 ### Recommended citation for the data:
-suggested: Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. 2022. “Evidence for Extensive Social Networks as Risk-Mitigation Strategies on Southwest Madagascar.” Retrieved from https://d-davis/mada_ceramic
+suggested: Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. 2022. “Evidence for Extensive Social Networks as Risk-Mitigation Strategies on Southwest Madagascar.” Retrieved from https://github.com/d-davis/mada_ceramic
 
 
 ### Related publications:

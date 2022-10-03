@@ -36,7 +36,7 @@ suggested: Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hi
 
 
 ### Related publications:
-Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. In Preparation. “Evidence for Extensive Social Networks as Risk-Mitigation Strategies on Southwest Madagascar.” Submitted to Antiquity.
+Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. In Review. “Evidence for Extensive Social Networks as Risk-Mitigation Strategies on Southwest Madagascar.” Submitted to Antiquity. Under revision.
 
 
 Data & File Overview

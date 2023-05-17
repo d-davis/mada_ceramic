@@ -58,9 +58,9 @@ co.p <- function(x, thresh = 0.1) {
 }
 
 # run the function on the datasets
-d_data1P <- co.p(d_data1) #Decoration data
-d_data2P <- co.p(d_data2) #Manufacturing data
-d_data3P <- co.p(d_data3)
+d_data1P <- co.p(d_data1) #Early Period data
+d_data2P <- co.p(d_data2) #Middle Period data
+d_data3P <- co.p(d_data3) #Late Period data
 
 # Function for calculating Brainerd-Robinson (BR) coefficients
 # This creates a matrix of similarity values used in many SNAs
@@ -89,9 +89,9 @@ sim.mat <- function(x) {
 }  # return the final output table
 
 # Run the BR coefficient function on our sample data
-d_data1BR <- sim.mat(d_data1) #Decoration data
-d_data2BR <- sim.mat(d_data2) #Manufacturing data
-d_data3BR <- sim.mat(d_data3)
+d_data1BR <- sim.mat(d_data1) #Early Period data
+d_data2BR <- sim.mat(d_data2) #Middle Period data
+d_data3BR <- sim.mat(d_data3) #Late Period data
 
 # Chi-square (X2) distance function
 chi.dist <- function(x) {
@@ -104,13 +104,13 @@ chi.dist <- function(x) {
 }
 
 # Run the X2 function and then create the rescaled 0-1 version
-d_data1X <- chi.dist(d_data1) #Decoration data
+d_data1X <- chi.dist(d_data1) #Early Period data
 d_data1X01 <- d_data1X/max(d_data1X) 
 
-d_data2X <- chi.dist(d_data2)#Manufacturing data
+d_data2X <- chi.dist(d_data2)#Middle Period data
 d_data2X01 <- d_data2X/max(d_data2X)
 
-d_data3X <- chi.dist(d_data3) #Decoration data
+d_data3X <- chi.dist(d_data3) #Late Period data
 d_data3X01 <- d_data3X/max(d_data3X) 
 
 
@@ -138,6 +138,7 @@ plot(Pnet_d1, edge.col = "gray", edge.lwd = 0.10, vertex.cex = 0.75, main = "Co-
 plot(Pnet_d2, edge.col = "gray", edge.lwd = 0.10, vertex.cex = 0.75, main = "Co-Presence network, Middle Period")
 plot(Pnet_d3, edge.col = "gray", edge.lwd = 0.10, vertex.cex = 0.75, main = "Co-Presence network, Late Period")
 # plot network spatially using geographic coordinates
+#this is commented out as site coordinates cannot be included in the publically available dataset
 #plot(Pnet_d1, edge.col = "gray", edge.lwd = 0.10, vertex.cex = 0.5, main = "Spatial CP Network, Early Period",coord = d_data1[,10:11])
 #plot(AOI, add=T) #overlay network with coastline of study area
 #plot(Pnet_d2, edge.col = "gray", edge.lwd = 0.10, vertex.cex = 0.5, main = "Spatial CP Network, Middle Period",coord = d_data2[,10:11])
@@ -607,7 +608,7 @@ boxplot(X.edge.d3[[3]], ylim = c(0, 1), main = "Chi squared - betweenness", xlab
 
 ```{r}
 ###CHECK FOR SAMPLING ERRORS AND BIASES IN DATASET
-## This code was originally written by Peeples (2017) and uses
+## This function was originally coded by Peeples (2017) and uses
 ## simulations to check for sampling issues
 
 nsim <- 100

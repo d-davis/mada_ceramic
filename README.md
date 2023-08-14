@@ -1,5 +1,5 @@
 # mada_ceramic
-This repository contains code and data needed to replicate network analyses on ceramic assemblages from SW Madagascar, reported in Davis et al. (in press).
+This repository contains code and data needed to replicate network analyses on ceramic assemblages from SW Madagascar, reported in Davis et al. (2023).
 
 General Information
 ------------------
@@ -32,11 +32,11 @@ Sharing/Access Information
 <!-- Creative Commons Attribution 4.0 International (CC BY 4.0)  -->
 
 ### Recommended citation for the data:
-suggested: Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. 2022. “Evidence for Extensive Social Networks as Risk-Mitigation Strategies on Southwest Madagascar.” Retrieved from https://github.com/d-davis/mada_ceramic
+suggested: Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. 2022. “Social networks as risk-mitigation strategies in south-west Madagascar.” Retrieved from https://github.com/d-davis/mada_ceramic
 
 
 ### Related publications:
-Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. (2023). “Evidence for Extensive Social Networks as Risk-Mitigation Strategies on Southwest Madagascar.” Antiquity. In Press.
+Davis, Dylan S., Tanambelo Rasolondrainy, George Manahira, Sean W. Hixon, Vanillah Andriankaja, Laurence Hubertine, Ricky Justome, et al. (2023). “Social networks as risk-mitigation strategies in south-west Madagascar.” Antiquity. 2023. https://doi.org/10.15184/aqy.2023.123
 
 
 Data & File Overview
